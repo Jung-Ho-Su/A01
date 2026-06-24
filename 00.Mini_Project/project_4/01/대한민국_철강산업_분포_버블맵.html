@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_14ae788cc829b8aff9ae501a660ad6e4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_14ae788cc829b8aff9ae501a660ad6e4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_14ae788cc829b8aff9ae501a660ad6e4 = L.map(
+                "map_14ae788cc829b8aff9ae501a660ad6e4",
+                {
+                    center: [36.5, 127.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46a8a3a8c77b75cfadb5266ced63ad27 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_46a8a3a8c77b75cfadb5266ced63ad27.addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+            var circle_marker_d7c4299ac33fadb4da4677c33aaeb2d1 = L.circleMarker(
+                [35.3058654, 129.172041],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0392b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6, "stroke": true, "weight": 3}
+            ).addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+        var popup_1200abcb7575b616bcecd1efd28252b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_794e73e664584cfdc5b1cad8b405b4cf = $(`<div id="html_794e73e664584cfdc5b1cad8b405b4cf" style="width: 100.0%; height: 100.0%;"><b>동광산업</b><br>생산품: 비철금속가공<br>종업원: 3명</div>`)[0];
+                popup_1200abcb7575b616bcecd1efd28252b8.setContent(html_794e73e664584cfdc5b1cad8b405b4cf);
+            
+        
+
+        circle_marker_d7c4299ac33fadb4da4677c33aaeb2d1.bindPopup(popup_1200abcb7575b616bcecd1efd28252b8)
+        ;
+
+        
+    
+    
+            var circle_marker_cf35a72566931e8c4f442648360ca9a5 = L.circleMarker(
+                [35.8149066, 128.491259],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0392b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2, "stroke": true, "weight": 3}
+            ).addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+        var popup_560c29750f71d0713cb83dc60f7107e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bae6b7f2229dccc51f7b2f425f99ec2e = $(`<div id="html_bae6b7f2229dccc51f7b2f425f99ec2e" style="width: 100.0%; height: 100.0%;"><b>남경하이텍</b><br>생산품: 금형<br>종업원: 6명</div>`)[0];
+                popup_560c29750f71d0713cb83dc60f7107e9.setContent(html_bae6b7f2229dccc51f7b2f425f99ec2e);
+            
+        
+
+        circle_marker_cf35a72566931e8c4f442648360ca9a5.bindPopup(popup_560c29750f71d0713cb83dc60f7107e9)
+        ;
+
+        
+    
+    
+            var circle_marker_092e2baff15095c2bed170f743403403 = L.circleMarker(
+                [35.7323939, 128.4699972],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0392b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+        var popup_e232b68249334f67adb1025c74526c97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_708f987a66c4218122df28389541979b = $(`<div id="html_708f987a66c4218122df28389541979b" style="width: 100.0%; height: 100.0%;"><b>디에스메탈(주)</b><br>생산품: 산업용부품, 금형주물<br>종업원: 35명</div>`)[0];
+                popup_e232b68249334f67adb1025c74526c97.setContent(html_708f987a66c4218122df28389541979b);
+            
+        
+
+        circle_marker_092e2baff15095c2bed170f743403403.bindPopup(popup_e232b68249334f67adb1025c74526c97)
+        ;
+
+        
+    
+    
+            var circle_marker_e8b6f0ccd6d37ad66f8d63d01bbd9ccb = L.circleMarker(
+                [35.4422094, 129.2196061],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0392b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+        var popup_518482bfdc8400b9a086fa7703da23f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66939cb66e097b80b33565109b4602db = $(`<div id="html_66939cb66e097b80b33565109b4602db" style="width: 100.0%; height: 100.0%;"><b>케이티티플랜트(주)2공장</b><br>생산품: 후렌지 가공 및 철강재 절단가공<br>종업원: 10명</div>`)[0];
+                popup_518482bfdc8400b9a086fa7703da23f5.setContent(html_66939cb66e097b80b33565109b4602db);
+            
+        
+
+        circle_marker_e8b6f0ccd6d37ad66f8d63d01bbd9ccb.bindPopup(popup_518482bfdc8400b9a086fa7703da23f5)
+        ;
+
+        
+    
+    
+            var circle_marker_3592c44c4c1a542ce03949bf3e048ff5 = L.circleMarker(
+                [35.6510692, 129.2054624],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0392b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_14ae788cc829b8aff9ae501a660ad6e4);
+        
+    
+        var popup_f3f9369a1702ac5c77b960fcd358bd53 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbd87d99473b4de94e7412347e77f1b3 = $(`<div id="html_dbd87d99473b4de94e7412347e77f1b3" style="width: 100.0%; height: 100.0%;"><b>지엘건설(주)</b><br>생산품: 철강 2차가공품<br>종업원: 10명</div>`)[0];
+                popup_f3f9369a1702ac5c77b960fcd358bd53.setContent(html_dbd87d99473b4de94e7412347e77f1b3);
+            
+        
+
+        circle_marker_3592c44c4c1a542ce03949bf3e048ff5.bindPopup(popup_f3f9369a1702ac5c77b960fcd358bd53)
+        ;
+
+        
+    
+</script>
+</html>

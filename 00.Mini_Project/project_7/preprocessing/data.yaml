@@ -1,0 +1,13 @@
+train: C:\Project\Project_source\AI01\Mini_Project\project_7\preprocessing\train\images
+val: C:\Project\Project_source\AI01\Mini_Project\project_7\preprocessing\val\images
+test: ../test/images
+
+nc: 9
+names: ['25', '41', '6', '7', '8', 'boat', 'buoy', 'object', 'ship']
+
+roboflow:
+  workspace: 2s-workspace-okqca
+  project: 2s-workspace-okqca
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/2s-workspace-okqca/2s-workspace-okqca/dataset

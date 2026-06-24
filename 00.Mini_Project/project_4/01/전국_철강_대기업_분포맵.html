@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe862f0aa1fdf4da93eb8bc8b5636826 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe862f0aa1fdf4da93eb8bc8b5636826" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe862f0aa1fdf4da93eb8bc8b5636826 = L.map(
+                "map_fe862f0aa1fdf4da93eb8bc8b5636826",
+                {
+                    center: [36.5, 127.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0532375fbe7dcad72c3f958a9d0253b7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0532375fbe7dcad72c3f958a9d0253b7.addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+            var circle_marker_2627eea5aa307109fdee45784ca38b3a = L.circleMarker(
+                [36.019, 129.343],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_7fa7d3f33f3ae414425d14b14f1d1f5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97087851977babb061f01c5cfed39c46 = $(`<div id="html_97087851977babb061f01c5cfed39c46" style="width: 100.0%; height: 100.0%;"><b>경상북도 포항시 (대기업)</b><br>공장수: 11개</div>`)[0];
+                popup_7fa7d3f33f3ae414425d14b14f1d1f5c.setContent(html_97087851977babb061f01c5cfed39c46);
+            
+        
+
+        circle_marker_2627eea5aa307109fdee45784ca38b3a.bindPopup(popup_7fa7d3f33f3ae414425d14b14f1d1f5c)
+        ;
+
+        
+    
+    
+            var circle_marker_47b2c7a151aa7544234437a065e30497 = L.circleMarker(
+                [36.892, 126.629],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_fbc42ee10690d6b5dfde690648327f52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d24bee08d4e83bde5864d8eb64ccdde0 = $(`<div id="html_d24bee08d4e83bde5864d8eb64ccdde0" style="width: 100.0%; height: 100.0%;"><b>충청남도 당진시 (대기업)</b><br>공장수: 5개</div>`)[0];
+                popup_fbc42ee10690d6b5dfde690648327f52.setContent(html_d24bee08d4e83bde5864d8eb64ccdde0);
+            
+        
+
+        circle_marker_47b2c7a151aa7544234437a065e30497.bindPopup(popup_fbc42ee10690d6b5dfde690648327f52)
+        ;
+
+        
+    
+    
+            var circle_marker_afa7de9ee036cb35daaeb5422e895d28 = L.circleMarker(
+                [34.94, 127.69],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_1cead5e1fc2bf281280a1cfa714b36bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b664d53610786deb88e3ada1935e0088 = $(`<div id="html_b664d53610786deb88e3ada1935e0088" style="width: 100.0%; height: 100.0%;"><b>전라남도 광양시 (대기업)</b><br>공장수: 3개</div>`)[0];
+                popup_1cead5e1fc2bf281280a1cfa714b36bf.setContent(html_b664d53610786deb88e3ada1935e0088);
+            
+        
+
+        circle_marker_afa7de9ee036cb35daaeb5422e895d28.bindPopup(popup_1cead5e1fc2bf281280a1cfa714b36bf)
+        ;
+
+        
+    
+    
+            var circle_marker_54cb16993a582fca42a93f98b93acd3a = L.circleMarker(
+                [35.544, 129.331],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_6fe88051070649bf599b3d7575498361 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0ec41510f3889e5b290acfd8605d0d9 = $(`<div id="html_e0ec41510f3889e5b290acfd8605d0d9" style="width: 100.0%; height: 100.0%;"><b>울산광역시 남구 (대기업)</b><br>공장수: 2개</div>`)[0];
+                popup_6fe88051070649bf599b3d7575498361.setContent(html_e0ec41510f3889e5b290acfd8605d0d9);
+            
+        
+
+        circle_marker_54cb16993a582fca42a93f98b93acd3a.bindPopup(popup_6fe88051070649bf599b3d7575498361)
+        ;
+
+        
+    
+    
+            var circle_marker_e1cf108969eb2cdf34712b02e56af0e5 = L.circleMarker(
+                [36.992, 127.112],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_817c09362a1b97ddf4446be3657c674b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41e332d3a9e3d4c0e195d4920fbbf299 = $(`<div id="html_41e332d3a9e3d4c0e195d4920fbbf299" style="width: 100.0%; height: 100.0%;"><b>경기도 평택시 (대기업)</b><br>공장수: 1개</div>`)[0];
+                popup_817c09362a1b97ddf4446be3657c674b.setContent(html_41e332d3a9e3d4c0e195d4920fbbf299);
+            
+        
+
+        circle_marker_e1cf108969eb2cdf34712b02e56af0e5.bindPopup(popup_817c09362a1b97ddf4446be3657c674b)
+        ;
+
+        
+    
+    
+            var circle_marker_715ef9de8dc8479fa4df36160ad73f47 = L.circleMarker(
+                [37.545, 126.675],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_94c4472420db4e4f6fb2b8ae37735f31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff2848f189c31854a303c1415a34371d = $(`<div id="html_ff2848f189c31854a303c1415a34371d" style="width: 100.0%; height: 100.0%;"><b>인천광역시 서구 (대기업)</b><br>공장수: 1개</div>`)[0];
+                popup_94c4472420db4e4f6fb2b8ae37735f31.setContent(html_ff2848f189c31854a303c1415a34371d);
+            
+        
+
+        circle_marker_715ef9de8dc8479fa4df36160ad73f47.bindPopup(popup_94c4472420db4e4f6fb2b8ae37735f31)
+        ;
+
+        
+    
+    
+            var circle_marker_be8d87b57c2995b549965aa10202cc14 = L.circleMarker(
+                [35.084, 128.981],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_7ca6a8e10d89a72ee0bc1e7d5af27fe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c800c0a86b720aa9770e54b640ef4c2 = $(`<div id="html_3c800c0a86b720aa9770e54b640ef4c2" style="width: 100.0%; height: 100.0%;"><b>부산광역시 사하구 (대기업)</b><br>공장수: 1개</div>`)[0];
+                popup_7ca6a8e10d89a72ee0bc1e7d5af27fe2.setContent(html_3c800c0a86b720aa9770e54b640ef4c2);
+            
+        
+
+        circle_marker_be8d87b57c2995b549965aa10202cc14.bindPopup(popup_7ca6a8e10d89a72ee0bc1e7d5af27fe2)
+        ;
+
+        
+    
+    
+            var circle_marker_05e4f0db8c2cba29c904f953dbed9974 = L.circleMarker(
+                [34.95, 127.487],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2980b9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe862f0aa1fdf4da93eb8bc8b5636826);
+        
+    
+        var popup_328e8adcfd6f2607e1825b4efa3d4193 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a6f290d2c64bd214b64493e555f20d3 = $(`<div id="html_9a6f290d2c64bd214b64493e555f20d3" style="width: 100.0%; height: 100.0%;"><b>전라남도 순천시 (대기업)</b><br>공장수: 1개</div>`)[0];
+                popup_328e8adcfd6f2607e1825b4efa3d4193.setContent(html_9a6f290d2c64bd214b64493e555f20d3);
+            
+        
+
+        circle_marker_05e4f0db8c2cba29c904f953dbed9974.bindPopup(popup_328e8adcfd6f2607e1825b4efa3d4193)
+        ;
+
+        
+    
+</script>
+</html>
